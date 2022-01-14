@@ -1,3 +1,5 @@
+mod mut_immut;
+mod tuple;
 mod vars;
 
 fn main() {
@@ -7,4 +9,8 @@ fn main() {
     vars::run();
     // サブモジュールの呼び出し
     vars::sub_a::func_a();
+
+    mut_immut::run();
+
+    tuple::run();
 }
