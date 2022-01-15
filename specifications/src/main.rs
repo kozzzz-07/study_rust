@@ -1,4 +1,5 @@
 mod mut_immut;
+mod string;
 mod tuple;
 mod vars;
 
@@ -13,4 +14,6 @@ fn main() {
     mut_immut::run();
 
     tuple::run();
+
+    string::run();
 }
