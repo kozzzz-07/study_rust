@@ -2,6 +2,7 @@ mod mut_immut;
 mod string;
 mod tuple;
 mod vars;
+mod vector;
 
 fn main() {
     println!("Hello, world!");
@@ -16,4 +17,6 @@ fn main() {
     tuple::run();
 
     string::run();
+
+    vector::run();
 }
