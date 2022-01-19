@@ -1,3 +1,4 @@
+mod box_pointer;
 mod mut_immut;
 mod string;
 mod tuple;
@@ -19,4 +20,6 @@ fn main() {
     string::run();
 
     vector::run();
+
+    box_pointer::run();
 }
