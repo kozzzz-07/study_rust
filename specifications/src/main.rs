@@ -1,4 +1,5 @@
 mod box_pointer;
+mod lifetime_danglingpointer;
 mod mut_immut;
 mod ownership;
 mod string;
@@ -25,4 +26,6 @@ fn main() {
     box_pointer::run();
 
     ownership::run();
+
+    lifetime_danglingpointer::run();
 }
