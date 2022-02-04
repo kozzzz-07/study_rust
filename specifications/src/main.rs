@@ -1,5 +1,6 @@
 mod box_pointer;
 mod mut_immut;
+mod ownership;
 mod string;
 mod tuple;
 mod vars;
@@ -22,4 +23,6 @@ fn main() {
     vector::run();
 
     box_pointer::run();
+
+    ownership::run();
 }
